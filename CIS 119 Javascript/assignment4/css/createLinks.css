@@ -1,0 +1,32 @@
+/*
+    createLinks.js
+    Matthew Lord
+    CIS 119
+    2/19/2018
+
+    This page provides styling for the createLinks.html
+    assignment.
+*/
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ccffcc;
+}
+
+h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ol li {
+    margin-left: 2em;
+    font-size: 12pt;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+a:hover {
+    color: #0000ff;
+}

@@ -1,0 +1,75 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    4/23/18
+    style sheet for the 10th assignment 
+*/
+body{
+    margin-left: 0.5em;
+    margin-top: 0.5em; 
+}
+
+td{
+    padding-left: 9em;
+    padding-top: 1em;
+    border: 1px solid #FF000F;
+}
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+#drag{
+    width:100px;
+    height:100px; 
+    background:#7baaed;
+    border:1px solid #333;
+    text-align: center;
+}
+
+
+#highlight{
+    text-align: center;
+    padding: 0.5em;
+}
+
+#morph{
+    background:#cccccc;
+    width:100px;
+    height:100px;
+}
+
+#moveClick{ 
+    background:#00CCFF;
+    padding:5px;
+    border:1px solid #000;
+}
+
+#opacity{
+    width:190px;
+    height:100px;
+    background:#AFEEEE;
+}
+
+#shake{
+    width:150px; 
+    height:40px; 
+    background:#ccc; 
+    text-align:center;
+}
+
+#shakeClick{
+    line-height:40px;
+}
+
+#squish{
+    width:180px;
+    height:80px;
+    background:#DA70D6;
+}

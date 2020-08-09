@@ -1,0 +1,42 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    4/23/18
+    style sheet for the 10th assignment 
+*/ 
+
+body{
+    margin-left: 0.5em;
+    margin-top: 0.5em; 
+} 
+
+table{
+    width:100%;
+    
+} 
+
+td{
+    padding-left: 5em;
+    padding-top: 1em;
+}
+
+.radioB{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.radioB1{
+    margin-bottom: 2em;
+}
+
+#effect{
+    width: 30em;
+    height: 20em;
+    border: 1px solid #000000;
+}
+
+#items{
+    text-align: center;
+    width: 20em;
+    border: 1px solid #FF000F;
+}

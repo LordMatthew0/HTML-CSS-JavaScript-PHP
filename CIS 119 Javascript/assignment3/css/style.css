@@ -1,0 +1,22 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    2/12/18
+    style sheet for assignment 3
+*/
+
+body{
+    background-color: #000000;
+    text-align:center;
+    width:100%;
+    height: 100%;
+    color: white;
+}
+
+img{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}

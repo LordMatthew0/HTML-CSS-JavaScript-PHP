@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>  -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="scripts/cooklib.js"></script>
+    <script src="scripts/listradio.js"></script>
+    <script src="scripts/javascript.js"></script>
+    <title>Assignment 6</title>
+    <!--
+        basicPage.html
+        Matthew Lord
+        CIS119
+        1/29/18
+        html for assignment 6 
+    -->
+</head>
+
+<body>
+    <div id="noCookie">
+    <form id="myform" action="basicPage.html" method="GET">
+    <table>
+    <thead>
+        <tr><th colspan="2">Please enter information:</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="txtName" id="txtName" /></td>
+        </tr>
+        <tr>
+            <td>Color:</td>
+            <td>
+                <input type="radio" name="rb" value="White" checked />White<br />
+                <input type="radio" name="rb" value="Pink" />Pink<br />
+                <input type="radio" name="rb" value="Yellow" />Yellow<br />
+                <input type="radio" name="rb" value="Lime" />Lime<br />
+                <input type="radio" name="rb" value="Silver" />Silver
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Send" /></td>
+            <td><input type="reset" value="Clear" /></td>
+        </tr>
+    </tbody>
+    </table>
+    </form>
+    </div>
+    
+    <div id="yesCookie">
+        <h1 id="name"></h1>
+        <input type="button" id="getRid" value="Delete Cookies" />
+    </div>
+</body>
+</html>

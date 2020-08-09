@@ -1,0 +1,38 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    4/2/18
+    style sheet for assignment 7
+*/
+body{
+    background-color: #FFFFFF;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+h1{
+    font-size: 3em;
+    padding-top: 0.3em;
+}
+td{
+    padding-top: 0.3em;
+} 
+#error{
+    display: none;
+}
+#errors p{
+    padding-top: 0.3em;
+}
+
+#nameError{
+    display: none;
+}
+#ageError{
+    display: none;
+}
+#zipError{
+    display: none;
+}
+#passError{
+    display: none;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>  -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="scripts/javascript.js"></script>
+    <title>Assignment 8</title>
+    <!--
+        basicPage.html
+        Matthew Lord
+        CIS119
+        4/9/18
+        HTML for assignment 8
+    -->
+</head>
+
+<body>
+    <form id="myform" action="http://kermit.kish.edu/~dklick/dataChecker.php" method="POST">
+    <table>
+    <thead>
+        <tr><th colspan="3">Form validation assignment</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" id="txtName" /></td>
+            <td>(required)</td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="text" name="age" id="txtAge" /></td>
+            <td>(16 - 120)</td>
+        </tr>
+        <tr>
+            <td>Zipcode:</td>
+            <td><input type="text" name="zip" id="txtZip" /></td>
+            <td>(5 or 9 digit)</td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="text" name="pass" id="txtPass" /></td>
+            <td>(8-16 characters)*</td>
+        </tr>
+        
+        <tr>
+            <td><input type="reset" value="clear" /></td>
+            <td><input type="submit" value="send" /></td>
+        </tr>
+    </tbody>
+    </table>
+    </form>
+    <div id="errors">
+        <p id="passwordNote">*Note: Password field mush include a digit, a lower case letter, an upper case </p><p>letter, and a special character. Special characters are: !"#$%&'()*+,-.:;</p><p><=>?@[]^_`{|}~</p>
+        <h1 id = "error"> Errors </h1>
+        <p id="nameError">Error: Name field is required.</p>
+        <p id="ageError">Error: Age field is required.</p>
+        <p id="zipError">Error: Zipcode is required.</p>
+        <p id="passError">Error: Password is required.</p>
+    </div>
+</body>
+</html>

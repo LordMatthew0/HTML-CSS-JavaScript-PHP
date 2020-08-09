@@ -1,0 +1,29 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    1/22/18
+    style sheet for a basic page template 
+    f2b0d0  d04f2f
+*/
+body{
+    background-color: #000000;
+    text-align:center;
+    width:100%;
+    height: 100%;
+}
+
+img{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+#replaceImage{
+    position: relative;
+    display:inline-block;
+    background-color:pink;
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,22 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    1/22/18
+    style sheet of assignmet 1
+*/
+body{
+    background-color: #f2e9e1;
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #00cf0f;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+.content{
+    color: #bf2008;
+    margin-top: 25px;
+    margin-bottom: 28px;
+}

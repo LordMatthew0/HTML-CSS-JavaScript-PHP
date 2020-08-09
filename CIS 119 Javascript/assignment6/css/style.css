@@ -1,0 +1,19 @@
+/*
+    style.cpp
+    Matthew Lord
+    CIS119
+    1/22/18
+    style sheet for assignment 6
+*/
+
+td{
+    padding-top: 0.3em;
+    padding-left: 1em;
+} 
+
+#yesCookie{
+    font-weight: bold;
+    font-size: 2em;
+    padding-top: 0.3em;
+    padding-left: 1em;
+}

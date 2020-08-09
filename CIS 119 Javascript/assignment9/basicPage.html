@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>  -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--    <script src="scripts/javascript.js"></script>  -->
+    <title>Assignment9 </title>
+    <!--
+        basicPage.html
+        Matthew Lord
+        CIS119
+        4/16/18
+        A basic html for assignment 9
+    -->
+</head>
+
+<body>
+<script type="text/javascript">
+    function getRequestObject() {
+       if (window.XMLHttpRequest) return new XMLHttpRequest();
+       else if (window.ActiveXObject)
+          return new ActiveXObject("Microsoft.XMLHTTP");
+       alert("Your browser does not support AJAX!");
+       return null;
+    }
+
+    function $(n) { return document.getElementById(n); }
+
+    function doStuff() {
+       var req = getRequestObject();
+       if (req == null) return false;
+       req.open("GET","reverse.php?text=" + $('txt1').value,true);
+       req.send(null);
+       req.onreadystatechange = function() {
+          if(req.readyState==4) {
+             $('result').innerHTML = req.responseText;
+          }
+       };
+       return false;
+    }
+</script>
+
+<form onsubmit="return doStuff();">
+    Input: <input type="text" id="txt1" /><br />
+    <input type="submit" value="Reverse It" />
+</form>
+
+    <div id="result">
+    </div>
+</body>
+</html>
